@@ -23,8 +23,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-// authMiddleware
-
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/posts/fetch', [PostController::class, 'fetch'])->name('posts.fetch');
 Route::resources(['login' => LoginController::class]);

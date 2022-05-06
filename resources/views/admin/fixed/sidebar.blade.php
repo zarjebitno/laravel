@@ -57,40 +57,10 @@
     <a class="nav-link" href="#">
         <form action="{{ @route('logout') }}" class="form-inline" method="POST">
           @csrf
-          <button type="submit" class="nav-link">Logout</button>
+          <button type="submit" class="nav-link btn btn-light text-secondary">Logout</button>
       </form>
     </a>
 </li>
-
-  {{-- <!-- Divider -->
-  <hr class="sidebar-divider">
-
-  <!-- Heading -->
-  <div class="sidebar-heading">
-      Addons
-  </div>
-
-  <!-- Nav Item - Pages Collapse Menu -->
-  <li class="nav-item">
-      <a class="nav-link collapsed" href="#">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-      </a>
-  </li>
-
-  <!-- Nav Item - Charts -->
-  <li class="nav-item">
-      <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-  </li>
-
-  <!-- Nav Item - Tables -->
-  <li class="nav-item">
-      <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-  </li> --}}
 
 </ul>
 <!-- End of Sidebar -->
