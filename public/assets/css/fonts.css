@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif !important;
+}
+
+p,
+form,
+a,
+span,
+small,
+label,
+input,
+select,
+option,
+td {
+  font-family: "Poppins", sans-serif !important;
+}
+
+a.fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
